@@ -30,4 +30,4 @@
     * [2.9.12、seek: 定位](di-er-zhang-xie-yi-xiang-jie/2.9-ming-ling-xiao-xi-command-message-type-id-17-huo-20/2.9.12seek-ding-wei.md)
   * [2.10、聚合消息 Aggregate Message （type ID = 22）](di-er-zhang-xie-yi-xiang-jie/2.10-ju-he-xiao-xi-aggregate-message-type-id-22.md)
   * [2.9.13、pause: 暂停](di-er-zhang-xie-yi-xiang-jie/2.9.13pause-zan-ting.md)
-* [2.2、消息格式](2.2-xiao-xi-ge-shi.md)
+* [第三章 代码实现](2.2-xiao-xi-ge-shi.md)

@@ -19,7 +19,7 @@ Netty的boss线程池和work 线程池组,这里通过配置判断是否选择ep
             log.info("Netty is using NIO");
             workerGroup = new NioEventLoopGroup(new DefaultThreadFactory("work"));
             bossGroup = new NioEventLoopGroup(new DefaultThreadFactory("boss"));
-            channelClass = EpollServerSocketChannel.class;
+            channelClass = NioServerSocketChannel.class;
         }
         executor = new DefaultEventExecutorGroup(handlerThreadPoolSize);
     }

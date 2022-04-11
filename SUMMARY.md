@@ -33,4 +33,5 @@
   * [第十一章、聚合消息 Aggregate Message （type ID = 22）](di-er-zhang-xie-yi-xiang-jie/2.10-ju-he-xiao-xi-aggregate-message-type-id-22.md)
 * [第三部分 代码实现](2.2-xiao-xi-ge-shi.md)
   * [第十二章：启动代码](2.2-xiao-xi-ge-shi/di-shi-er-zhang-qi-dong-dai-ma.md)
+  * [第十三章：握手实现](2.2-xiao-xi-ge-shi/di-shi-san-zhang-wo-shou-shi-xian.md)
 * [第四部分：总结](di-si-bu-fen-zong-jie.md)

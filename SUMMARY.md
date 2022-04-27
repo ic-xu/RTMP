@@ -34,4 +34,5 @@
 * [第三部分 代码实现](2.2-xiao-xi-ge-shi.md)
   * [第十二章：启动代码](2.2-xiao-xi-ge-shi/di-shi-er-zhang-qi-dong-dai-ma.md)
   * [第十三章：握手实现](2.2-xiao-xi-ge-shi/di-shi-san-zhang-wo-shou-shi-xian.md)
+  * [第十四章：消息解码实现](2.2-xiao-xi-ge-shi/di-shi-si-zhang-xiao-xi-jie-ma-shi-xian.md)
 * [第四部分：总结](di-si-bu-fen-zong-jie.md)

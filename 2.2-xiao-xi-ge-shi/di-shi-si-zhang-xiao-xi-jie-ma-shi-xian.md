@@ -13,13 +13,13 @@
                                 Chunk Format
 ```
 
-### 消息头数据结构
+### 消息数据结构
 
-我们把除了数据以外的字段设置为消息头，则 RTMP 消息头数据结构对应的 java 代码如下：
+则 RTMP 消息数据结构对应的 java 代码如下：
 
 ```
 @Data
-public class RtmpHeader {
+public class ChunkMessage {
 
     //对应 Basic Header
     private BasicHeader basicHeader = new BasicHeader();
@@ -30,10 +30,15 @@ public class RtmpHeader {
     //对应 Extended Timestamp
     private long extendedTimestamp;
 
+    //payload
+    private ByteBuf payload;
+
+
     //获取一个时间差值
     private int timestampDelta;
 
     //外加一个字段记录消息体大小
     private int headerLength;
+
 }
 ```
